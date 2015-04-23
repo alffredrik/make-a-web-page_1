@@ -1,0 +1,73 @@
+/* This is a CSS comment */
+
+body {
+  background-color: #E0E0C0;
+  padding: 25px 15px;
+  font-family: sans-serif;
+  max-width: 2000px;
+  margin: 0 auto;
+  /* The 0 refers to the top and bottom margins and the "auto" automatically */
+  
+  font-size: 1.2em;
+}
+/* sets the left and right margins to equal values. This centers the body on the page.*/
+
+h1 {
+  text-align: center;
+  color: #228B22;
+}
+
+a {
+  color: #22BD22;
+}
+/* mouse over link */
+
+a:hover {
+  color: #FF00CC;
+}
+
+li {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 40px;
+  /* each line of text should occupy 40 pixels of height */
+}
+
+.Pagetitle {
+  background-color: #009666;
+  color: white;
+  font-size: 30px;
+  max-width: 1500px;
+  padding: 10px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.lesson {
+  background-color: #006666;
+  color: white;
+  padding: 15px;
+  margin: 15px auto;
+}
+
+h2 {
+  margin: 10px;
+}
+
+.concept {
+  background-color: #66CC66;
+  padding: 4px;
+  margin: 10px;
+  color: black;
+}
+
+.concept-title {
+  font-size: 25px;
+  margin: 8px;
+  text-align: center;
+  color: #294860;
+}
+
+.concept-description {
+  margin: 20px;
+}
