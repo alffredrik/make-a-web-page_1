@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Introduction to Programming - Fredrik's Notes</title>
+  <link rel="stylesheet" href="FredriksProject1.css">
+</head>
+
+<body>
+  <a id="top"></a>
+  <div class="Pagetitle">
+    Introduction to Programming - Fredrik's Notes
+  </div>
+  <div class="TOC">
+    <h1>Table of Contents</h1>
+    <ol>
+      <li>
+        <a href="#lesson-1">Lesson 1: The Basics of the Web and HTML</a>
+        <ol type="I">
+          <li><a href="#lesson-1-1">The Major Pieces</a></li>
+          <li><a href="#lesson-1-2">WWW</a></li>
+          <li><a href="#lesson-1-3">HTML</a></li>
+          <li><a href="#lesson-1-4">Final Thoughts</a></li>
+        </ol>
+      </li>
+      <li>
+        <a href="#lesson-2">Lesson 2: Creating a Structured Document with HTML</a>
+        <ol type="I">
+          <li><a href="#lesson-2-1">The Major Pieces part II</a></li>
+          <li><a href="#lesson-2-2">Boxes, boxes and...wait for it...boxes!</a></li>
+          <li><a href="#lesson-2-3">Editors</a></li>
+        </ol>
+      </li>
+      <li>
+        <a href="#lesson-3">Lesson 3: Lesson 3: Adding CSS Style to HTML Structure</a>
+        <ol type="I">
+          <li><a href="#lesson-3-1">Repetition = Bad</a></li>
+          <li><a href="#lesson-3-2">CSS</a></li>
+        </ol>
+      </li>
+    </ol>
+  </div>
+  <div class="lesson">
+    <h2 id="lesson-1">Lesson 1: The Basics of the Web and HTML</h2>
+    <div class="concept" id="lesson-1-1">
+      <div class="concept-title">
+        The Major Pieces
+      </div>
+      <div class="concept-description">
+        At the start of this class we discussed how end users, computers, servers, http, and the internet all fit together. The key takeaway was the concept of the internet, the world largest computer network, and how we through the internet, starting with a
+        request through a browser on our computer, using HTTP, can access information stored on servers all over the world.
+      </div>
+    </div>
+
+    <div class="concept" id="lesson-1-2">
+      <div class="concept-title">
+        The WWW
+      </div>
+      <div class="concept-description">
+        The World Wide Web is a collection of HTML documents. HTML, <em>HyperText Markup Language</em> is the foundation to build everything we access on the WWW. We can find any kind of file (media, text etc.) on the web but HTML is the is building block
+        of the actual webpages. Other file types or links are embedded into the HTML document (or webpage).
+      </div>
+    </div>
+    <div class="concept" id="lesson-1-3">
+      <div class="concept-title">
+        HTML
+      </div>
+      <div class="concept-description">
+        HTML is made up of text content, markup, references to other docs and links to other pages. Within the HTML document or webpage we have a series of <em>HTML Elements</em> which are components of the document that are usually started and ended with a tag. Examples of tags are &lt;b> for <b>bold</b> lettering or &lt;em> for  <em>emphasized</em> letters. It is important to always add an end tag i.e. &lt;/b> or everything that follows the opening tag will be affected. There are some elements that does not require a closing (or end) tag and these are called <em>void elements.</em> The break &lt;br> tag is an example of a void element.
+        Another important concept is <b>block</b> vs. <b>inline</b> elements. Block elements start and end with a new line, as with &lt;p> and &lt;div>. Block elements form a "box" aroundthe content of the element. Inline elements are displayed without line breaks. Examples of Inline elements are &lt;b>, &lt;em> and &lt;img>. Lastly we noted that all whitespace, new lines, tabs and spaces all turn into a single space (regardless of how lengthy) within the HTML document.To force line changes we can use the break &lt;br> or paragraph &lt;p> tags.
+      </div>
+    </div>
+    <div class="concept" id="lesson-1-4">
+      <div class="concept-title">
+        Final Thoughts
+      </div>
+      <div class="concept-description">
+        Computers are <span><b>stupid,</b></span> people are <span><b>smart.</b></span> But people (programmers) make mistakes and computers do not. Thus the onus is on the us, the programmers, to make sure we tell the computers exactly what we need them to do, down to the last detail. Any errors in the input means the output will be corrupted.
+      </div>
+    </div>
+  </div>
+  <div class="lesson">
+    <h2 id="lesson-2">Lesson 2: Creating a Structured Document with HTML</h2>
+    <div class="concept" id="lesson-2-1">
+      <div class="concept-title">
+        The Major Pieces part II
+      </div>
+      <div class="concept-description">
+        HTML (HyperText Markup Language), CSS (Cascading Style Sheets) and DOM (Document Object Model) are the focus of this lesson. Javascript was mentioned but will not be covered. HTML is the markup language used to build the webpage i.e. the structure. CSS is used for adding color, format and style to the HTML document. The Document Object Model (DOM) provides a structured representation of the HTML document. It gives us a representation of the document as a structured group of nodes and objects.
+        The nodes of every document are organized in a tree structure, called the DOM tree. We used the Chrome Developer Tools option to look at the structure of a web page, showing it as a DOM tree.
+        <br>Javascript is used to add interactivity to a webpage.
+      </div>
+    </div>
+    <div class="concept" id="lesson-2-2">
+      <div class="concept-title">
+        Boxes, boxes and...wait for it...boxes!
+      </div>
+      <div class="concept-description">
+        Everything on a webpage is boxes. We did an exercise to identify the number of separate boxes on a web page and we learned that we can divide the page in to more or less boxes, depending on how much dept we want to go to. Basically a box represents an
+        element and depending on how granular we want to be able to control the contents on our webpage we can break it down in more or less elements/boxes.
+      </div>
+    </div>
+    <div class="concept" id="lesson-2-3">
+      <div class="concept-title">
+        Editors
+      </div>
+      <div class="concept-description">
+        Sublime is a powerful text editor for programming and it is recommended for more advanced programming. Codepen seems to fit our needs best at this stage, due to it's ease of use and direct feedback.
+      </div>
+    </div>
+  </div>
+  <div class="lesson">
+    <h2 id="lesson-3">Lesson 3: Adding CSS Style to HTML Structure</h2>
+    <div class="concept" id="lesson-3-1">
+      <div class="concept-title">
+        Repetition = bad
+      </div>
+      <div class="concept-description">
+        The fewer places you have to touch to make a change to multiple parts of your webpage the better it is. Less repetition mean easier to manage code and less chance of you missing something when you make changes to your webpage i.e. fewer places to update.
+        It should also help with structure of the code and make it more readable. By using CSS you can define style and color for different components of your webpage and every time you use a certain component it will get it's style from the CSS file.
+        No need to define the style again each time.
+      </div>
+    </div>
+    <div class="concept" id="lesson-3-2">
+      <div class="concept-title">
+        CSS
+      </div>
+      <div class="concept-description">
+        Cascading Style Sheets - style sheet language used for describing the look and formatting of a document written in a markup language. Cascading means Most Specific Rule applies. Keep going down and down in the rules until you find the one that best describes
+        the elements. That rule gets applied. If we don't have a CSS file the Web browser will display our page according to a default style template associated with that particular browser.
+      </div>
+    </div>
+ </div>
+  <a href="#top">Back to top of page</a>
+<div>
+    <a href="http://css-validator.org/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://css-validator.org/images/vcss.png"
+            alt="Valid CSS!" />
+    </a>
+</div>
+     
+</body>
+
+</html>
